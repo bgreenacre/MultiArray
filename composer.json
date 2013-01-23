@@ -1,0 +1,10 @@
+{
+    "name": "bgreenacre/multiarray",
+    "description": "Access a multi dimensional array using dot notation.",
+    "autoload": {
+        "psr-0": {"Multi": "src/"}
+    },
+    "require": {
+        "php": "5.3.*"
+    }
+}
