@@ -147,7 +147,7 @@ class Arr implements \ArrayAccess {
         return $this->_data;
     }
 
-    public function setDelimiter(array $delimiter)
+    public function setDelimiter($delimiter)
     {
         $this->_delimiter = $delimiter;
 

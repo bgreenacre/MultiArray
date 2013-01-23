@@ -5,6 +5,8 @@ indexes accessible and settible using the dot notation.
 
 # Example Usage
 
+    include 'src/Multi/Arr.php';
+
     // Instantiate object and pass an array to the constructor
     $arr = new Multi\Arr(array(
         'level1'    => array(
@@ -18,7 +20,7 @@ indexes accessible and settible using the dot notation.
         'anotherIndex'  => array(
             'test'  => 'Yet another test',
             ),
-        ),
+        )
     );
 
     // Access specific level of the array
